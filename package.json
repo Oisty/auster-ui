@@ -17,7 +17,7 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "@tsconfig/svelte": "^3.0.0",
     "@vitest/ui": "^0.29.2",
-    "autoprefixer": "^10.4.13",
+    "autoprefixer": "^10.4.14",
     "playwright": "^1.31.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
