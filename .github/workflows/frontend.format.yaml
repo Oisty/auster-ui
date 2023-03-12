@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v3
       - name: 📦 Install dependencies
         run: npm ci
-        working-directory: src/web
       - name: 💇 Run format
         uses: wearerequired/lint-action@v2
         with:
