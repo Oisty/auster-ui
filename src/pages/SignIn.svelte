@@ -1,6 +1,7 @@
 <script>
-  import Logo from "./Logo.svelte";
-  import OutlinedInput from "./Components/OutlinedInput.svelte";
+  import Logo from "../Logo.svelte";
+  import OutlinedInput from "../components/OutlinedInput.svelte";
+
 </script>
 
 <div
@@ -17,7 +18,7 @@
         Sign in to your account
       </h2>
     </header>
-    <form class="space-y-6 px-5" action="#" method="POST">
+    <form class="space-y-6 px-5" action={import.meta.env.VITE_BACKEND_URL + "/signIn"} method="POST">
       <OutlinedInput
         id="username"
         name="username"

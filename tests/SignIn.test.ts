@@ -1,4 +1,4 @@
-import SignIn from "../src/SignIn.svelte";
+import SignIn from "../src/pages/SignIn.svelte";
 import { beforeAll, afterAll, test, it, describe } from "vitest";
 import type { PreviewServer } from "vite";
 import type { Browser, Page } from "playwright";

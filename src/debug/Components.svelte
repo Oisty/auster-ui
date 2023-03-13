@@ -1,5 +1,5 @@
 <script lang="ts">
-  import OutlinedInput from "../Components/OutlinedInput.svelte";
+  import OutlinedInput from "../components/OutlinedInput.svelte";
 </script>
 
 <main class="p-4">

@@ -1,6 +1,6 @@
 <script>
   import { Route, Router } from "svelte-routing";
-  import SignIn from "./SignIn.svelte";
+  import SignIn from "./pages/SignIn.svelte";
   import Debug from "./debug/Components.svelte";
 
   export let url = "";
