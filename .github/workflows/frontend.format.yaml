@@ -24,4 +24,4 @@ jobs:
         with:
           #eslint: true
           prettier: true
-          prettier_dir: .
+          prettier_dir: src
