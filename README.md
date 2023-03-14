@@ -20,6 +20,7 @@
 > 🚧 There is currently no way to easily get started with running Auster as a user. We will add a Get Started when we have released the first runnable verion. 🚧
 
 ## 👷 Get Started (Development)
+⚠️ To work effectively you most likely need a running version of the [backend API](https://github.com/Oisty/auster)
 
 1. Install [Node.js](https://nodejs.org)
 2. Clone this repository
