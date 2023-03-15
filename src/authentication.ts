@@ -3,7 +3,7 @@ import HttpStatusCode from "./httpStatusCodes";
 
 //TODO figure out how to show sign in error (oops I forgot the sign in page might need to be server side rendered...)
 // Sign in is a simple HTML form post to the sign in endpoint. The server sets a cookie and the page refreshes.
-// The refresh causes the app to get the current authentication state again. We get the authentication state by
+// The refresh causes the app to request the current authentication state again. We get the authentication state by
 // attempting to fetch the users data which we need to always do anyways. If we get a 401 Unauthenticated response
 // we show the sign in form mentioned before.
 // The sign out is also just a button in a form post to the sign out endpoint after which the app will start again.
