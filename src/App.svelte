@@ -17,6 +17,7 @@
 
   // If not authenticated and route requires authentication, require user to sign in
   if (!isAuthenticated && isAuthenticationRequired(location.pathname)) {
+    // This might need to be a "forced" navigation with reload if the sign in moves to server side rendering
     navigate("/signin");
   }
 </script>
