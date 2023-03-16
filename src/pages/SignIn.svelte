@@ -1,9 +1,11 @@
 <script>
   import Logo from "../Logo.svelte";
   import OutlinedInput from "../components/OutlinedInput.svelte";
-
 </script>
 
+<svelte:head>
+  <title>Sign In</title>
+</svelte:head>
 <div
   class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
 >
@@ -18,7 +20,7 @@
         Sign in to your account
       </h2>
     </header>
-    <form class="space-y-6 px-5" action={import.meta.env.VITE_BACKEND_URL + "/signIn"} method="POST">
+    <form class="space-y-6 px-5" action="/signIn" method="POST">
       <OutlinedInput
         id="username"
         name="username"
