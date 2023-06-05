@@ -29,7 +29,7 @@
     "tslib": "^2.5.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.1",
-    "vitest": "^0.29.2"
+    "vitest": "^0.31.4"
   },
   "dependencies": {
     "svelte-routing": "^1.6.0"
